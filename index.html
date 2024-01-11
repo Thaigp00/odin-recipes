@@ -8,18 +8,33 @@
     </head>
 
     <body>
-        <h1 id="title">Odin Recipes</h1>
-        <hr class="divisor">
-        <img src="https://i0.wp.com/palestrasdesucesso.com.br/wp-content/uploads/2019/09/gordon-ramsay-.jpg?resize=510%2C340&ssl=1" alt="An image of Gordon Ramsay looking at the screen.">
-        <hr class="divisor">
-
-        <h4>The best quick and delicious recipes right here!</h4>
-        <ul>
-            <li><a href="./recipes/pizza.html">Baguete Pizza</a></li>
-            <li><a href="./recipes/cookies.html">Shortbread Cookies</a></li>
-            <li><a href="./recipes/juice.html">Healthy Green Juice</a></li>
-        </ul>
-
-        <p>All recipes and its pictures are from <a href="https://www.allrecipes.com/" >allrecipes</a>.</p>
+        <h1 id="title" class="text">Odin Recipes</h1>
+        <div class="container">
+            <div class="recipe-container first">
+                <div class="image-container">
+                    <img src="https://www.allrecipes.com/thmb/CJOX58HEUV1VDdO8NRvFLP--Hnk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/10269-shortbread-cookies-ii-ddmfs-beauty-3x4-a49d3dc16dd747bcb4b28a6a3fa14a58.jpg" alt="An image of delicious Shortbread Cookies.">
+                </div>
+                <div class="link-container">
+                    <a href="recipes/cookies.html" class="text recipe-link">Shortbread Cookies</a>
+                </div>
+            </div>
+            <div class="recipe-container middle">
+                <div class="image-container">
+                    <img src="https://www.allrecipes.com/thmb/IvsXj6zYAnw2MPrTNARHWp7HmA8=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/230642-Healthy-Green-Juice-083-4x3-d8c13b4cb3504d44a701f8d3a2f5d24e.jpg" alt="An image of a delicious Healthy Green Juice.">
+                </div>
+                <div class="link-container">
+                    <a href="recipes/juice.html" class="text recipe-link">Healthy Green Juice</a>
+                </div>
+            </div>
+            <div class="recipe-container last">
+                <div class="image-container">
+                    <img src="https://www.allrecipes.com/thmb/ePA6vnIIPyLCPmdZmQmP0Uxz5-g=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7565207_Baguette-Pizza_Thedailygourmet_4x3_retry-87210bd144a948de821ceef51651b161.jpg" alt="An image of a delicious Baguete Pizza.">
+                </div>
+                <div class="link-container text">
+                    <a href="recipes/pizza.html" class="text recipe-link">Baguete Pizza</a>
+                </div>
+            </div>
+        </div>
+        <h4 class="text">All recipe and its images credits to <a href="https://www.allrecipes.com" target="_blank" rel="noopener noreferrer" class="text">All Recipes</a></h4>
     </body>
 </html>
